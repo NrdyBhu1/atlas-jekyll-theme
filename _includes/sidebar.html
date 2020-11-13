@@ -3,5 +3,6 @@
     {% assign author = site.github_username -%}
     {% avatar user=author size=200 -%}
     <h2>{{ site.github_username }}</h3>
-    <h3>{{ site.description }}</h3>
+    <h4>{{ site.description }}</h3>
+    <h2><a href="{{ '/about.md' | prepend: site.baseurl | prepend: site.url }}">About</a></h2>
 </div>
