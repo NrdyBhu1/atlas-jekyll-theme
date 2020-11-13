@@ -6,6 +6,6 @@ layout: base
 <div class="blog-post">
     {% for post in site.posts %}
     <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-    <h5><i class="fas fa-calendar-alt"></i>{{ post.date }}<h5>
+    <h1><i class="fas fa-calendar-alt"></i>{{ post.date }}<h1>
     {% endfor -%}
 </div>
