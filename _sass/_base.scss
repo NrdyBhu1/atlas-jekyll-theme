@@ -1,0 +1,16 @@
+a{
+    color: $background-color;
+    text-decoration: none;
+
+    &:hover{
+        color: $brand-color;
+        text-decoration: underline;
+    }
+}
+
+footer{
+    text-transform: uppercase;
+    bottom: 0;
+    position: static;
+    text-align: center;
+}
