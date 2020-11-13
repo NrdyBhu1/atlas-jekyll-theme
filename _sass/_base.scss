@@ -9,6 +9,12 @@
     color: $text-color;
 }
 
+.content{
+    position: relative;
+    left: 400px;
+    width: calc(100% - 400px);
+}
+
 a{
     color: $background-color;
     text-decoration: none;

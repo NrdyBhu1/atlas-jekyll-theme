@@ -2,9 +2,12 @@
 ---
 <!DOCTYPE html>
 <html>
-    {% include header.html %}
+    {% include header.html -%}
     <body>
-        {{ content }}
+        {% include sidebar.html %}
+        <div class="content">
+            {{ content }}
+        <div>
     </body>
-    {% include footer.html %}
+    {% include footer.html -%}
 </html>
