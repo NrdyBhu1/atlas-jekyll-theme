@@ -1,0 +1,11 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {% feed_meta %}
+  <link type="application/atom+xml" rel="alternate" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" title="Jekyll releases posts" />
+  <link rel="preload" href="{{ '/assets/css/style.css' | prepend: site.baseurl | prepend: site.url }}" as="style">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon" type="image/x-icon" href="{{ site.favicon | prepend: site.baseurl | prepend: site.url }}">
+  {% seo %}
+  <title>{{ site.name | prepend: page.title }}</title>
+</head>

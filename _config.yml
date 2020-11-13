@@ -1,0 +1,34 @@
+name: Atlas Jekyll Theme
+desciption: >
+  A jekyll theme for personal website.
+footer: >
+  NrdyBhu1
+email: yourusername@gmail.com
+baseurl: "/atlas-jekyll-theme" # the subpath of your site, e.g. /blog
+#replace nrdybhu1.github.io with your domainname.com
+url: "http://nrdybhu1.github.io" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+markdown: kramdown
+favicon: "/assets/img/atlas.png"
+collections:
+  posts:
+    permalink: "/news/:title/"
+    output: true
+defaults:
+- scope:
+    path: _posts
+    type: posts
+- scope:
+    path: ''
+  values:
+    image: "/assets/img/preview.png"
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-redirect-from
+- jemoji
+feed:
+  categories:
+  - tutorial
+  - blog
