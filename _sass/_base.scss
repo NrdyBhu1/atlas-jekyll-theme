@@ -1,9 +1,11 @@
 .sidebar{
     position: fixed;
+    top: 0;
     left:0;
-    width: 200px;
+    width: 400px;
     height: 100%;
     background: #2d3436;
+    text-align: center;
 }
 
 a{
