@@ -13,7 +13,7 @@ markdown: kramdown
 favicon: "/assets/img/atlas.png"
 collections:
   posts:
-    permalink: "/news/:title/"
+    permalink: "/blog/:title"
     output: true
 defaults:
 - scope:
