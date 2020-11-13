@@ -22,7 +22,7 @@ $border-radius: 7px;
 
 
 $white-color: #fefefe;
-$glass-color: lighten($background-color, 2%);
+$glass-color: lighten(#fff, 2%);
 $grey-color:       #546E7A;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
