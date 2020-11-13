@@ -13,7 +13,7 @@ markdown: kramdown
 favicon: "/img/atlas.png"
 collections:
   posts:
-    permalink: "/blog/:title"
+    permalink: "/:categories/:title:output_ext"
     output: true
 defaults:
 - scope:
