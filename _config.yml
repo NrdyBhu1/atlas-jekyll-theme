@@ -10,7 +10,7 @@ url: "http://nrdybhu1.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 markdown: kramdown
-favicon: "/assets/img/atlas.png"
+favicon: "/img/atlas.png"
 collections:
   posts:
     permalink: "/blog/:title"
@@ -22,7 +22,7 @@ defaults:
 - scope:
     path: ''
   values:
-    image: "/assets/img/preview.png"
+    image: "/img/preview.png"
 plugins:
 - jekyll-avatar
 - jekyll-feed
