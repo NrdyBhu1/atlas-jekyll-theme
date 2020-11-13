@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-redirect_from: /about.md
+redirect_from: /about.html
 ---
 
 ## Hi there 👋
