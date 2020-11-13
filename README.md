@@ -1,1 +1,1 @@
-# atlas-jekyll-theme
+# Atlas-jekyll-theme
