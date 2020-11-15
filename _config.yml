@@ -10,6 +10,7 @@ url: "https://nrdybhu1.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  Jekyll
 markdown: kramdown
+page_excerpts: true
 favicon: "/img/atlas.png"
 collections:
   posts:
