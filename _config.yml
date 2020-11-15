@@ -14,7 +14,7 @@ page_excerpts: true
 favicon: "/img/atlas.png"
 collections:
   posts:
-    permalink: "/:categories/:title:output_ext"
+    permalink: "/blog/:categories/:title:output_ext"
     output: true
 defaults:
 - scope:

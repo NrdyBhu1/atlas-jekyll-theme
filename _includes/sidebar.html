@@ -1,8 +1,9 @@
 <div class="sidebar">
-    <h1><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
+    <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
     {% assign author = site.github_username -%}
     {% avatar user=author size=200 -%}
     <h2>{{ site.github_username }}</h3>
     <h4>{{ site.description }}</h3>
-    <h2><a href="{{ '/about.html' | prepend: site.baseurl | prepend: site.url }}">About</a></h2>
+    <h2><a href="{{ '/about.html' | absolute_url }}">About</a></h2>
+    <h2><a href="{{ '/blogs.html' | absolute_url }}">About</a></h2>
 </div>
