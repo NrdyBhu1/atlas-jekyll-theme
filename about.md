@@ -29,8 +29,8 @@ Link your social accounts
 Show your github Stats
 # Stats
 <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Jekyll&show_icons=true&layout=compact&bg_color=30,12c2e9,f64f59&title_color=fff&text_color=fff">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jekyll&layout=compact&bg_color=30,1565C0,b92b27&title_color=fff&text_color=fff">
+    <img src="https://github-readme-stats.vercel.app/api?username=NrdyBhu1&show_icons=true&layout=compact&bg_color=30,12c2e9,f64f59&title_color=fff&text_color=fff">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NrdyBhu1&layout=compact&bg_color=30,1565C0,b92b27&title_color=fff&text_color=fff">
 </p>
 
 Your showcase here
