@@ -4,8 +4,8 @@
 <html>
     {% include header.html -%}
     <body>
-        <h1>{{ post.title }}<h1>
-        <h3 style="font-size: 20px;opacity: 0.2;"><i class="fas fa-calendar-alt"></i> {{ post.date | date_to_long_string }}</h3>
+        <h1>{{ title }}<h1>
+        <h3 style="font-size:20px;opacity:0.5;"><i class="fas fa-calendar-alt"></i> {{ post.date | date_to_long_string }}</h3>
         {% include sidebar.html %}
         <div class="content">
             {{ content }}
