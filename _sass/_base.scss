@@ -17,12 +17,12 @@
 .social-media{
     position: absolute;
     right: 0;
-    top: 0;
+    top: -1;
+    z-index: 2;
 }
 
 .social-media ul{
     list-style: none;
-    display: inline-block;
 }
 
 .content{
