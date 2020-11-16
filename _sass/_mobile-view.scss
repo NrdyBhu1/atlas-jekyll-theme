@@ -52,14 +52,14 @@
         height: auto;;
     }
 
-    .sidebar h1, .sidebar h4{
-        width: 0;
-        height: 0;
-        visibility: hidden;
-    }
+    // .sidebar h1, .sidebar h4{
+    //     width: 0;
+    //     height: 0;
+    //     visibility: hidden;
+    // }
 
     .sidebar{
-        height: 100px;
+        height: 400px;
         width: 100%;
         position: fixed;
         top:0;
@@ -73,7 +73,7 @@
 
     .content{
         position: relative;
-        top: 100px;
+        top: 400px;
         left: 0;
         width: 100%;
     }
@@ -84,6 +84,6 @@
 
     .fork{
         position: fixed;
-        top: 100px;
+        top: 400px;
     }
 }
