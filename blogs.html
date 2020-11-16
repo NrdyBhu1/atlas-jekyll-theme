@@ -1,14 +1,37 @@
 ---
 layout: post
 title: All Blogs
-permalink: /blogs/
-redirect_from: /blogs.html
 ---
 
 <div class="blog-post">
-    {% for post in site.posts %}
+    <!-- {% for post in site.posts %}
     <h2><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a><h2>
     <h3><i class="fas fa-calendar-alt"></i> {{ post.date | date_to_long_string }}</h3>
     <p>{{ post.excerpt }} <a href="{{ post.url | absolute_url }}">[...]</a></p>
-    {% endfor -%}
+    {% endfor -%} -->
+    <!-- This loops through the paginated posts -->
+    {% for post in paginator.posts %}
+    <h2><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a><h2>
+    <h3><i class="fas fa-calendar-alt"></i> {{ post.date | date_to_long_string }}</h3>
+    <p>{{ post.excerpt }} <a href="{{ post.url | absolute_url }}">[...]</a></p>
+    {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
 </div>
