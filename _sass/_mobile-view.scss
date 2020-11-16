@@ -57,4 +57,11 @@
         height: 0;
         visibility: hidden;
     }
+
+    .sidebar{
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        top:0;
+    }
 }
