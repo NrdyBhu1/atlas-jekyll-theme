@@ -48,7 +48,7 @@
     }
 
     .sidebar img{
-        width: 100px;
+        width: 200px;
         height: auto;;
     }
 
@@ -60,7 +60,7 @@
     }
 
     .sidebar{
-        height: 100px;
+        height: 200px;
         width: 100%;
         position: fixed;
         top: 0;
@@ -73,7 +73,7 @@
 
     .content{
         position: relative;
-        top: 100px;
+        top: 200px;
         left: 0;
         width: 100%;
     }
@@ -84,6 +84,6 @@
 
     .fork{
         position: fixed;
-        top: 100px;
+        top: 200px;
     }
 }
