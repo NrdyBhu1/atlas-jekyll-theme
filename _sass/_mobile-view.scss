@@ -49,7 +49,9 @@
 
     .sidebar img{
         width: 100px;
-        height: auto;;
+        height: auto;
+        position: fixed;
+        left: 0;
     }
 
     .sidebar h1, .sidebar h4{
