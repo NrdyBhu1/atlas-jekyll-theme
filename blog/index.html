@@ -20,9 +20,7 @@ title: All Blogs
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      Previous
-    </a>
+    <a href="{{ paginator.previous_page_path | absolute_url }}" class="previous">&larr; Previous</a>
   {% else %}
     <span class="previous">Previous</span>
   {% endif %}
@@ -30,7 +28,7 @@ title: All Blogs
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="{{ paginator.next_page_path | absolute_url }}" class="next">Next &rarr;</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
