@@ -11,9 +11,9 @@ title: All Blogs
     {% endfor -%} -->
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
-    <h2><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a><h2>
-    <h3><i class="fas fa-calendar-alt"></i> {{ post.date | date_to_long_string }}</h3>
-    <p>{{ post.excerpt }} <a href="{{ post.url | absolute_url }}">[...]</a></p>
+        <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a><h2>
+        <h3><i class="fas fa-calendar-alt"></i> {{ post.date | date_to_long_string }}</h3>
+        <p>{{ post.excerpt }} <a href="{{ post.url | absolute_url }}">[...]</a></p>
     {% endfor %}
 </div>
 
