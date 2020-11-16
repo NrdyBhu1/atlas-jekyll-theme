@@ -5,19 +5,22 @@
     height: 0;
 }
 
+.sidebar img{
+    width: 200px;
+    height: auto;;
+}
+
+.site-header{
+    width: 1;
+    height: auto;
+    visibility: visible;
+}
+
 .hide-on-mobile{
     visibility: visible;
     opacity: 1;
     width: 1;
     height: 1;
-}
-
-.sidebar.hidden{
-    width: 0;
-}
-
-.sidebar.active{
-    width: 1;
 }
 
 .center-on-mobile{
@@ -42,5 +45,16 @@
 
     .center-on-mobile{
         text-align: center;
+    }
+
+    .sidebar img{
+        width: 50px;
+        height: auto;;
+    }
+
+    .site-header{
+        width: 0;
+        height: 0;
+        visibility: hidden;
     }
 }
