@@ -12,6 +12,14 @@
     height: 1;
 }
 
+.sidebar.hidden{
+    width: 0;
+}
+
+.sidebar.active{
+    width: 1;
+}
+
 .center-on-mobile{
     text-align: left;
 }
@@ -35,5 +43,4 @@
     .center-on-mobile{
         text-align: center;
     }
-
 }
