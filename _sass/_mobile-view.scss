@@ -48,15 +48,15 @@
     }
 
     .sidebar img{
-        width: 50px;
+        width: 100px;
         height: auto;;
     }
 
-    // .sidebar h1, .sidebar h4{
-    //     width: 0;
-    //     height: 0;
-    //     visibility: hidden;
-    // }
+    .sidebar h1, .sidebar h4{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
 
     .sidebar{
         height: 300px;
