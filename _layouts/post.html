@@ -6,6 +6,7 @@
     <body>
         {% include sidebar.html %}
         <div class="content">
+            {% include fork_me.html %}
             <h1>{{ page.title }}</h1>
             {% if page.date %}
                 <h3 style="font-size:20px;opacity:0.5;"><i class="fas fa-calendar-alt"></i> {{ page.date | date_to_long_string }}</h3>
