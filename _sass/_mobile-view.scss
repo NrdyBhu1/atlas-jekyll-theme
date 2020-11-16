@@ -27,7 +27,7 @@
     text-align: left;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
 
     .show-on-mobile{
         visibility: visible;
@@ -63,5 +63,9 @@
         width: 100%;
         position: fixed;
         top:0;
+    }
+
+    .sidebar h1, h2, h3, h4, img{
+        display: inline;
     }
 }
