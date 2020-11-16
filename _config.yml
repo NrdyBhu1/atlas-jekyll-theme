@@ -12,7 +12,7 @@ page_excerpts: true
 favicon: "/img/atlas.png"
 collections:
   posts:
-    permalink: "/blog/:categories/:title:output_ext"
+    permalink: "/blog/:title:output_ext"
     output: true
 defaults:
 - scope:
@@ -30,4 +30,4 @@ plugins:
 - jekyll-paginate
 
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
