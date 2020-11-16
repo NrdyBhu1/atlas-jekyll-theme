@@ -52,7 +52,7 @@
         height: auto;;
     }
 
-    .site-header{
+    .sidebar h1, h4{
         width: 0;
         height: 0;
         visibility: hidden;
@@ -66,7 +66,7 @@
         text-align: left;
     }
 
-    .sidebar h1, h2, h3, h4, img{
+    .sidebar h2, h3, img{
         display: inline;
     }
 
@@ -79,5 +79,10 @@
 
     .social-media li{
         display: list-item;
+    }
+
+    .fork{
+        position: fixed;
+        top: 100px;
     }
 }
