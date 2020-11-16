@@ -67,9 +67,9 @@
         vertical-align: middle;
     }
 
-    // .sidebar h2, .sidebar h3, .sidebar img{
-    //     display: inline;
-    // }
+    .sidebar h2, .sidebar h3, .sidebar img{
+        display: inline-block;
+    }
 
     .content{
         position: relative;
