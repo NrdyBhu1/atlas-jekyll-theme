@@ -1,12 +1,12 @@
-title: Islam Talk
+title: Atlas Jekyll Theme
 desciption: >
   A jekyll theme for personal website.
-# email: yourusername@gmail.com
-baseurl: "/talk" # the subpath of your site, e.g. /blog
+email: yourusername@gmail.com
+baseurl: "/atlas-jekyll-theme" # the subpath of your site, e.g. /blog
 #replace nrdybhu1.github.io with your domainname.com
-url: "https://islamtalk.github.io/" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  Jekyll
+url: "https://nrdybhu1.github.io" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  Jekyll
 markdown: kramdown
 page_excerpts: true
 favicon: "/img/atlas.png"
