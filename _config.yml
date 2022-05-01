@@ -1,8 +1,8 @@
-title: Atlas Jekyll Theme
+title: Islam Talk
 desciption: >
   A jekyll theme for personal website.
 email: yourusername@gmail.com
-baseurl: "/atlas-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 #replace nrdybhu1.github.io with your domainname.com
 url: "https://islamtalk.github.io/" # the base hostname & protocol for your site
 twitter_username: IslamTalk
